@@ -1,0 +1,23 @@
+return {
+  {
+    "stevearc/conform.nvim",
+    opts = {
+
+      -- formatters_by_ft = {
+      --   ps1 = { "psscriptanalyzer" },
+      -- },
+      --
+      -- formatters = {
+      --   psscriptanalyzer = {
+      --     command = "pwsh",
+      --     args = {
+      --       "-Command",
+      --       "Invoke-Formatter",
+      --       "-ScriptDefinition (Get-Content -Raw -Path $1)",
+      --     },
+      --     stdin = true,
+      --   },
+      -- },
+    },
+  },
+}
